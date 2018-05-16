@@ -1,0 +1,23 @@
+{
+  "name": "Chat",
+  "description": "framework-agnostic PHP package for FANAP-Messenger",
+  "license": "MIT",
+  "keywords": ["POD","Async","FANAP"],
+  "authors": [
+    {
+      "name": "Pooria pahlevani",
+      "email": "pooria.cpp@gmail.com"
+    }
+  ],
+  "require": {
+    "workerman/workerman": "^3.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chat\\": "src"
+    }
+  }
+}
